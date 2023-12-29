@@ -99,7 +99,7 @@ Below are links to the comprehensive developer guide and model implementations f
   - [Mobility Specifications Developer Guide](https://ondc-official.github.io/mobility-specification/)
 
       - `For On-demand Ride hailing, select version : draft-TRV10-2.0.0`
-      - `For Unreserved Ticket Booking, select version : draft-TRV11-2.0.0`
+      - `For Unreserved Ticket Booking (metro and intracity bus), select version : draft-TRV11-2.0.0`
 
 
 - Services -  This domain empowers individuals to effortlessly access a diverse array of services, covering home services like painting and consulations, etc.
