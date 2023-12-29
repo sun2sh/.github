@@ -43,7 +43,7 @@ To enroll in the ONDC network, Network Participants (NP) must be added to the re
 
    - Obtain whitelisting for the subscriber ID.
    - Initiate the subscription process by calling the /subscribe API.
-     The complete process is documented [here](https://docs.google.com/document/d/173m-GcSU3KtS0eMuK-mlRvoZGg28diakd03uYTUIWBg/edit)
+     The complete process is documented [here](https://github.com/ONDC-Official/developer-docs/blob/main/registry/Onboarding%20of%20Participants.md)
 2. **Pre-Production Registry**
 
    After presenting a demo and receiving approval from the relevant team, follow the [outlined process](https://github.com/ONDC-Official/developer-docs/blob/main/registry/Onboarding%20of%20Participants.md) to be added to the Pre-Prod registry. 
@@ -68,34 +68,55 @@ Below are links to the comprehensive developer guide and model implementations f
     - [Test Case Scenarios - B2C](https://docs.google.com/spreadsheets/d/1JZV6ZQzXcHUsOwegGtArX3DdIXYIy3gxkhQ00q7kICc/edit#gid=1367601795)
   - B2B
 
-    - [v2.0.1](https://github.com/ONDC-Official/ONDC-RET-Specifications/tree/master)
+    - [v2.0.2](https://github.com/ONDC-Official/ONDC-RET-Specifications/tree/release-2.0.2)
     - [Test Case Scenarios - B2B](https://docs.google.com/document/d/10ouiTKLY4dm1KnXCuhFwK38cYd9_aDQ30bklkqnPRkM/edit)
   - [Retail Developer Guide](https://ondc-official.github.io/ONDC-RET-Specifications/)
+
+     - `For B2B, select version : release-2.0.2`
+     - `For B2C, select version : draft-1.x`
+
 - Logistics - This domain streamlines the acquisition of on-network logistics services, providing logistics buyers with a variety of choices for flexible solutions that suit their specific needs.
 
   - [v1.2](https://docs.google.com/document/d/1CkfxtqyLbSQccJZyNmf9BSGzJBH13gcLOk_tywV-LBk/edit)
   - [B2B Logistics](https://github.com/ONDC-Official/ONDC-LOG-Specifications)
   - [Logistics Developer Guide](https://ondc-official.github.io/ONDC-LOG-Specifications/)
-  - [Test Case Scenarios](https://docs.google.com/spreadsheets/d/1JZV6ZQzXcHUsOwegGtArX3DdIXYIy3gxkhQ00q7kICc/edit#gid=1670900093)
-- Financial Services - This domain facilitates easy access to a spectrum of financial solutions, empowering individuals to secure loans, manage credit, and obtain insurance seamlessly.
+       - `For B2B Logistics, select version : draft-2.x`
+  - [Test Case Scenarios - Logistics](https://docs.google.com/spreadsheets/d/1JZV6ZQzXcHUsOwegGtArX3DdIXYIy3gxkhQ00q7kICc/edit#gid=1670900093)
+- Financial Services - This domain facilitates easy access to a spectrum of financial solutions, covering loans, insurance, investments. 
 
-  - [Insurance](https://github.com/ONDC-Official/ONDC-FIS-Specifications/tree/draft-insurance)
-  - [Loan](https://github.com/ONDC-Official/ONDC-FIS-Specifications/tree/draft-loan)
   - [Financial Services Developer Guide](https://ondc-official.github.io/ONDC-FIS-Specifications/)
-- Travel & Tourism - This domain enables easy access to a range of travel-related services, offering seamless options for commuting through metros and cabs, along with convenient hotel booking facilities.
 
-  - [v2.x](https://github.com/ONDC-Official/mobility-specification/tree/draft-2.x)
+       - `For Loan , select Version : draft-loan`
+       - `For Insurance , select version : draft-insurance`
+       - `For Investments , select version : draft-mutual-funds`
+
+  - [Gift Card](https://docs.google.com/document/d/1iTCQd_jI3mRqgSiaeZBvxWL-G_wkE__xxW-Wua8arVE/edit)
+
+  - [Test Case Scenarios](https://docs.google.com/spreadsheets/d/1JZV6ZQzXcHUsOwegGtArX3DdIXYIy3gxkhQ00q7kICc/edit#gid=1670900093)
+
+- Travel & Tourism - This domain enables easy access to a range of travel-related services, covering On-demand Ride hailing with various transport modes, ticket booking without designated seat. 
+
   - [Mobility Specifications Developer Guide](https://ondc-official.github.io/mobility-specification/)
-- Services -  This domain empowers individuals to effortlessly access a diverse array of services, facilitating seamless arrangements for tasks like home painting and consultations.
+
+      - `For On-demand Ride hailing, select version : draft-TRV10-2.0.0`
+      - `For Unreserved Ticket Booking, select version : draft-TRV11-2.0.0`
+
+
+- Services -  This domain empowers individuals to effortlessly access a diverse array of services, covering home services like painting and consulations, etc.
 
   - [v2.0.0](https://github.com/ONDC-Official/ONDC-SRV-Specifications/tree/draft-services)
   - [Services Developer Guide](https://ondc-official.github.io/ONDC-SRV-Specifications/#)
+
 - Ancillary Services
 
   - Issue & Grievance Management (IGM) within the ONDC Network serves as a critical mechanism for resolving disputes and concerns among Network Participants (NPs).
     - [v1.0.0](https://docs.google.com/document/d/1UYGIo1fSOcA4ypnk5FuaCgUgNnu9dBQt/edit)
   - Reconcillation and Settlement Framework (RSF) plays a pivotal role in maintaining a comprehensive trail of settlements between Network Participants.
     - [v1.0.0](https://docs.google.com/document/d/1ubUPAWpbbUJ4vG2h5TQ74srZBjYjrO0P/edit)
+  - Rating 
+    - [v1.2.0](https://docs.google.com/document/d/1VaafY8t47hjpoW6tdezGsPwLwxxaAaGc/edit)
+  - Score
+    - [v1.2.0](https://docs.google.com/document/d/126O1wFdA-IuwojiAuLzdpN36vjWfQg9KOA2zRd9-zTY/edit#heading=h.bifjra7hj5b0)
   - [Test Case Scenarios (IGM &amp; RSF)](https://docs.google.com/document/d/1tx86sypacIRXgL9nlNBdvHz7cYQjQoyC/edit)
 
 ## Reference Applications
@@ -127,8 +148,8 @@ The network participants need to complete the end-to-end testing with ONDC refer
   - [NodeJS](https://github.com/ONDC-Official/reference-implementations/tree/main/utilities/ondc-crypto-sdk-nodejs)
   - [Python](https://github.com/ONDC-Official/reference-implementations/tree/main/utilities/signing_and_verification)
   - [GoLang](https://github.com/ONDC-Official/reference-implementations/tree/main/utilities/signing_and_verification/golang)
-- [Subcription process utility](https://github.com/ONDC-Official/reference-implementations/tree/main/utilities/on_subscibe-service) : This tool aids ONDC Network Participants during the subscription process for the registry (Staging, Pre Prod, Prod). It includes the implementation of the /on_subscribe API in both NodeJS and Python.
-- [Retail/IGM Log Verification Utility](https://github.com/ONDC-Official/log-validation-utility) : This tool is designed for ONDC Network Participants to verify their transaction logs related to the Retail and IGM use cases on their end, ensuring accuracy before submission to the ONDC team for technical clearance.
+- [Subcription process](https://github.com/ONDC-Official/reference-implementations/tree/main/utilities/on_subscibe-service) : This tool aids ONDC Network Participants during the subscription process for the registry (Staging, Pre Prod, Prod). It includes the implementation of the /on_subscribe API in both NodeJS and Python.
+- [Retail/IGM Log Verification](https://github.com/ONDC-Official/log-validation-utility) : This tool is designed for ONDC Network Participants to verify their transaction logs related to the Retail and IGM use cases on their end, ensuring accuracy before submission to the ONDC team for technical clearance.
 - [B2B/Logistics Log Verification](https://github.com/ONDC-Official/reference-implementations/tree/main/utilities/logistics-b2b/log-verification-utility) : This tool is designed for ONDC Network Participants to verify their transaction logs related to the B2B and Logistics use cases on their end, ensuring accuracy before submission to the ONDC team for technical clearance.
 - [vlookup](https://www.npmjs.com/package/vlookup-ondc) : This tool is developed to perform a registry lookup and retrieve details related to Network Participants (NP).
 
