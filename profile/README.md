@@ -14,7 +14,7 @@ This comprehensive guide is designed to walk you through the process of integrat
 
 1. [Getting Started](#getting-started)
 2. [Quick Start Guide](#quick-start-guide)
-3. [Protocol](#the-protocol)
+3. [The Protocol](#the-protocol)
 4. [Subscription Process](#subscription-process)
 5. [Signing and Verification](#signing-and-verification)
 6. [Enabled Domains](#enabled-domains)
@@ -23,17 +23,17 @@ This comprehensive guide is designed to walk you through the process of integrat
 
 ## Getting Started
 
-[NP Profile Form](https://docs.google.com/forms/d/e/1FAIpQLScKKSuBUg2FbKaQjAiaYoptA2OVig01oNNNSYv5mzqTrxAbCA/viewform) is a registration form for all entities that wish to integrate with ONDC. Filling the NP Profile Form is necessary for starting your integration with ONDC.
+The [ONDC Web Portal](https://portal.ondc.org/) serves as a self-service platform that streamlines interaction between ONDC and its network participants across their entire lifecycle. "Network player" encompasses network participants, ecosystem partners, and other entities engaged with ONDC. The portal provides access to a range of services for network players, such as self-service onboarding, self-monitored compliance, and self-monitored operations. Creating an account on ONDC Web Portal is necessary for starting your integration with ONDC.
 
 ## Quick Start Guide
 
 [ONDC Integration Guide](https://docs.google.com/presentation/d/1HPRXk3lVYKmyAFcApgukZuwHhIZ_VlqR/edit#slide=id.g27b2e3e34a2_28_199) is a roadmap designed to illuminate key resources and navigate through the integration journey.
 
-## Protocol
+## The Protocol
 
 **Beckn** is an open protocol that allows local businesses across any industry to be discovered and engaged by any beckn-enabled application. **Beckn protocol** is a collection of open specifications consisting of protocol APIs, message formats, network design and reference architectures to allow any two entities to execute commercial transactions without being on the same platform.
 
-**ONDC** has provided the network extension layer over the Beckn Protocol (base layer),together it comprises the **ONDC protocol**. Over the base layer, the network extension layer comprises **model specifications** customised to the ONDC context that have been adopted in order to facilitate transactions over the network.
+**ONDC** has provided the network extension layer over the Beckn Protocol (base layer). Over the base layer, the network extension layer comprises **model specifications** customised to the ONDC context that have been adopted in order to facilitate transactions over the network.
 
 ### Subscription Process
 
@@ -92,8 +92,6 @@ Below are links to the comprehensive developer guide and model implementations f
 
   - [Gift Card](https://docs.google.com/document/d/1iTCQd_jI3mRqgSiaeZBvxWL-G_wkE__xxW-Wua8arVE/edit)
 
-  - [Test Case Scenarios](https://docs.google.com/spreadsheets/d/1JZV6ZQzXcHUsOwegGtArX3DdIXYIy3gxkhQ00q7kICc/edit#gid=1670900093)
-
 - Travel & Tourism - This domain enables easy access to a range of travel-related services, covering On-demand Ride hailing with various transport modes, ticket booking without designated seat. 
 
   - [Mobility Specifications Developer Guide](https://ondc-official.github.io/mobility-specification/)
@@ -138,7 +136,7 @@ The network participants need to complete the end-to-end testing with ONDC refer
   - Github Repo [link](https://github.com/ONDC-Official/seller-app-sdk/tree/master)
 - [ONDC Reference Buyer App](https://buyer-app-preprod-v2.ondc.org/login)
   - Github Repo [link](https://github.com/ONDC-Official/ondc-sdk)
-- [ONDC Reference LSP App](https://ref-logistics-app-preprod.ondc.org/)
+- [ONDC Reference Logistics Seller App](https://ref-logistics-app-preprod.ondc.org/)
   - Github Repo [link](https://github.com/ONDC-Official/ref-logistics-app-sdk/tree/main)
 
 ## Utilities
@@ -152,6 +150,7 @@ The network participants need to complete the end-to-end testing with ONDC refer
 - [Retail/IGM Log Verification](https://github.com/ONDC-Official/log-validation-utility) : This tool is designed for ONDC Network Participants to verify their transaction logs related to the Retail and IGM use cases on their end, ensuring accuracy before submission to the ONDC team for technical clearance.
 - [B2B/Logistics Log Verification](https://github.com/ONDC-Official/reference-implementations/tree/main/utilities/logistics-b2b/log-verification-utility) : This tool is designed for ONDC Network Participants to verify their transaction logs related to the B2B and Logistics use cases on their end, ensuring accuracy before submission to the ONDC team for technical clearance.
 - [vlookup](https://www.npmjs.com/package/vlookup-ondc) : This tool is developed to perform a registry lookup and retrieve details related to Network Participants (NP).
+- [RSF Mock Server](https://github.com/ONDC-Official/mock-server-utility) : The RSF Mock Server is a tool specifically designed to test network integration for Reconcillation and Settlement Framework (RSF) , based on ONDC model implementation.
 
 </td>
 <td width="30%"  style="vertical-align: top;"><img src="profile/ONDC-Logo.png"></td>
