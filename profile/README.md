@@ -14,7 +14,7 @@ This comprehensive guide is designed to walk you through the process of integrat
 
 1. [Getting Started](#getting-started)
 2. [Quick Start Guide](#quick-start-guide)
-3. [The Protocol](#the-protocol)
+3. [Protocol](#the-protocol)
 4. [Subscription Process](#subscription-process)
 5. [Signing and Verification](#signing-and-verification)
 6. [Enabled Domains](#enabled-domains)
@@ -29,7 +29,7 @@ The [ONDC Web Portal](https://portal.ondc.org/) serves as a self-service platfor
 
 [ONDC Integration Guide](https://docs.google.com/presentation/d/1HPRXk3lVYKmyAFcApgukZuwHhIZ_VlqR/edit#slide=id.g27b2e3e34a2_28_199) is a roadmap designed to illuminate key resources and navigate through the integration journey.
 
-## The Protocol
+## Protocol
 
 **Beckn** is an open protocol that allows local businesses across any industry to be discovered and engaged by any beckn-enabled application. **Beckn protocol** is a collection of open specifications consisting of protocol APIs, message formats, network design and reference architectures to allow any two entities to execute commercial transactions without being on the same platform.
 
@@ -127,7 +127,7 @@ The network participants need to complete the end-to-end testing with ONDC refer
   - Github Repo [link](https://github.com/ONDC-Official/seller-app-sdk/tree/master)
 - [ONDC Reference Buyer App](https://ref-app-buyer-staging-v2.ondc.org/login)
   - Github Repo [link](https://github.com/ONDC-Official/ondc-sdk)
-- [ONDC Reference LSP App](https://ref-logistics-app-stage.ondc.org/)
+- [ONDC Reference Logistics Seller App](https://ref-logistics-app-stage.ondc.org/)
   - Github Repo [link](https://github.com/ONDC-Official/ref-logistics-app-sdk/tree/main)
 
 **Pre-Production Environment**
