@@ -14,7 +14,7 @@ This comprehensive guide is designed to walk you through the process of integrat
 
 1. [Getting Started](#getting-started)
 2. [Quick Start Guide](#quick-start-guide)
-3. [The Protocol](#the-protocol)
+3. [Protocol](#the-protocol)
 4. [Subscription Process](#subscription-process)
 5. [Signing and Verification](#signing-and-verification)
 6. [Enabled Domains](#enabled-domains)
@@ -33,7 +33,7 @@ The [ONDC Web Portal](https://portal.ondc.org/) serves as a self-service platfor
 
 **Beckn** is an open protocol that allows local businesses across any industry to be discovered and engaged by any beckn-enabled application. **Beckn protocol** is a collection of open specifications consisting of protocol APIs, message formats, network design and reference architectures to allow any two entities to execute commercial transactions without being on the same platform.
 
-**ONDC** has provided the network extension layer over the Beckn Protocol (base layer),together it comprises the **ONDC protocol**. Over the base layer, the network extension layer comprises **model specifications** customised to the ONDC context that have been adopted in order to facilitate transactions over the network.
+**ONDC** has provided the network extension layer over the Beckn Protocol (base layer). Over the base layer, the network extension layer comprises **model specifications** customised to the ONDC context that have been adopted in order to facilitate transactions over the network.
 
 ### Subscription Process
 
@@ -127,7 +127,7 @@ The network participants need to complete the end-to-end testing with ONDC refer
   - Github Repo [link](https://github.com/ONDC-Official/seller-app-sdk/tree/master)
 - [ONDC Reference Buyer App](https://ref-app-buyer-staging-v2.ondc.org/login)
   - Github Repo [link](https://github.com/ONDC-Official/ondc-sdk)
-- [ONDC Reference LSP App](https://ref-logistics-app-stage.ondc.org/)
+- [ONDC Reference Logistics Seller App](https://ref-logistics-app-stage.ondc.org/)
   - Github Repo [link](https://github.com/ONDC-Official/ref-logistics-app-sdk/tree/main)
 
 **Pre-Production Environment**
@@ -136,7 +136,7 @@ The network participants need to complete the end-to-end testing with ONDC refer
   - Github Repo [link](https://github.com/ONDC-Official/seller-app-sdk/tree/master)
 - [ONDC Reference Buyer App](https://buyer-app-preprod-v2.ondc.org/login)
   - Github Repo [link](https://github.com/ONDC-Official/ondc-sdk)
-- [ONDC Reference LSP App](https://ref-logistics-app-preprod.ondc.org/)
+- [ONDC Reference Logistics Seller App](https://ref-logistics-app-preprod.ondc.org/)
   - Github Repo [link](https://github.com/ONDC-Official/ref-logistics-app-sdk/tree/main)
 
 ## Utilities
