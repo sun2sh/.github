@@ -14,7 +14,7 @@ This comprehensive guide is designed to walk you through the process of integrat
 
 1. [Getting Started](#getting-started)
 2. [Quick Start Guide](#quick-start-guide)
-3. [Protocol](#the-protocol)
+3. [The Protocol](#the-protocol)
 4. [Subscription Process](#subscription-process)
 5. [Signing and Verification](#signing-and-verification)
 6. [Enabled Domains](#enabled-domains)
