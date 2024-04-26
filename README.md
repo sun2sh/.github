@@ -1,6 +1,5 @@
-<table>
-<tr>
-<td>
+<p align="middle">
+<img src="profile/ONDC-Logo.png" height="150px" width="300px"></p>
 
 # ONDC - Open Network for Digital Commerce
 
@@ -108,7 +107,7 @@ Below are links to the comprehensive developer guide and model implementations f
 - Ancillary Services
 
   - Issue & Grievance Management (IGM) within the ONDC Network serves as a critical mechanism for resolving disputes and concerns among Network Participants (NPs).
-    - [v1.0.0](https://docs.google.com/document/d/1UYGIo1fSOcA4ypnk5FuaCgUgNnu9dBQt/edit)
+    - [v1.0.0](https://docs.google.com/document/d/1ZUS5hvS2M-TafyjAdcTY6X51VKbb9IO1fPaSquQfA0Y/edit)
   - Reconcillation and Settlement Framework (RSF) plays a pivotal role in maintaining a comprehensive trail of settlements between Network Participants.
     - [v1.0.0](https://docs.google.com/document/d/1ubUPAWpbbUJ4vG2h5TQ74srZBjYjrO0P/edit)
   - Rating 
@@ -152,7 +151,4 @@ The network participants need to complete the end-to-end testing with ONDC refer
 - [vlookup](https://www.npmjs.com/package/vlookup-ondc) : This tool is developed to perform a registry lookup and retrieve details related to Network Participants (NP).
 - [RSF Mock Server](https://github.com/ONDC-Official/mock-server-utility) : The RSF Mock Server is a tool specifically designed to test network integration for Reconcillation and Settlement Framework (RSF) , based on ONDC model implementation.
 
-</td>
-<td width="30%"  style="vertical-align: top;"><img src="profile/ONDC-Logo.png"></td>
-</tr>
-</table>
+
