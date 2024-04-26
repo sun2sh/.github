@@ -1,5 +1,5 @@
 <p align="middle">
-<img src="ONDC-Logo.png" height="150px" width="300px"></p>
+<img src="profile/ONDC-Logo.png" height="150px" width="300px"></p>
 
 # ONDC - Open Network for Digital Commerce
 
