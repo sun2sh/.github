@@ -57,42 +57,7 @@ The complete process is documented [here](https://github.com/ONDC-Official/devel
 
 ### Enabled Domains
 
-ONDC has enabled below domains on respective environments. The list will be updated as in when required. Network Participants are requested to refer the below list for domains.
-
-| Code          | Domain                                       | Staging | Pre-production | Production | Remarks            |
-| ------------- | -------------------------------------------- | ------- | -------------- | ---------- | ------------------ |
-| nic2004:52110 | Retail                                       | :heavy_check_mark: | :heavy_check_mark:| :heavy_check_mark:    | Will be deprecated |
-| nic2004:60232 | Logistics                                    | :heavy_check_mark: | :heavy_check_mark:| :heavy_check_mark:    |                    |
-| ONDC:RET10    | Grocery                                      | :heavy_check_mark: | :heavy_check_mark:| :heavy_check_mark:    |                    |
-| ONDC:RET11    | F&B                                          | :heavy_check_mark: | :heavy_check_mark:        | :heavy_check_mark:    |                    |
-| ONDC:RET12    | Fashion                                      | :heavy_check_mark: | :heavy_check_mark:        | :heavy_check_mark:    |                    |
-| ONDC:RET13    | BPC                                          | :heavy_check_mark: | :heavy_check_mark:        | :heavy_check_mark:    |                    |
-| ONDC:RET14    | Electronics                                  | :heavy_check_mark: | :heavy_check_mark:        | :heavy_check_mark:    |                    |
-| ONDC:RET15    | Home & Decor                                 | :heavy_check_mark: | :heavy_check_mark:        | :heavy_check_mark:    |                    |
-| ONDC:RET16    | Pharma                                       | :heavy_check_mark: | :heavy_check_mark:        | :heavy_check_mark:    |                    |
-| ONDC:RET17    | Agriculture                                  | :heavy_check_mark: | :heavy_check_mark:        | :heavy_check_mark:    |                    |
-| ONDC:RET18    | Health & Wellness                            | :heavy_check_mark: | :heavy_check_mark:        | :heavy_check_mark:    |                    |
-| ONDC:RET19    | Pharma                                       | :heavy_check_mark: | :heavy_check_mark:        | :heavy_check_mark:    |                    |
-| ONDC:RET1A    | Autoparts & Components                       | :heavy_check_mark: | :heavy_check_mark:        | :heavy_check_mark:    |                    |
-| ONDC:RET1B    | Hardware and Industrial                      | :heavy_check_mark: | :heavy_check_mark:        | :heavy_check_mark:    |                    |
-| ONDC:RET1C    | Building and construction supplies           | :heavy_check_mark: | :heavy_check_mark:        | :heavy_check_mark:    |                    |
-| ONDC:RET1D    | Chemicals                                    | :heavy_check_mark: | :heavy_check_mark:        | :heavy_check_mark:    |                    |
-| ONDC:FIS10    | Gift card                                    | :heavy_check_mark: | :heavy_check_mark:        | :heavy_check_mark:    |                    |
-| ONDC:FIS11    | FASTag                                       | :heavy_check_mark: | :heavy_check_mark:        | :heavy_check_mark:    |                    |
-| ONDC:FIS12    | Credit                                       | :heavy_check_mark: | :heavy_check_mark:        | :heavy_check_mark:    |                    |
-| ONDC:FIS13    | Insurance                                    | :heavy_check_mark: | :heavy_check_mark:        | :heavy_check_mark:    |                    |
-| ONDC:FIS14    | Investments                                  | :heavy_check_mark: | :heavy_check_mark:        | :heavy_check_mark:    |                    |
-| ONDC:TRV10    | Ride Hailing                                 | :heavy_check_mark: | :heavy_check_mark:        | :heavy_check_mark:    |                    |
-| ONDC:TRV11    | Ticket(Unreserved)                           | :heavy_check_mark: | :heavy_check_mark:        | :heavy_check_mark:    |                    |
-| ONDC:TRV12    | Ticket(Reserved)                             | :heavy_check_mark: | :heavy_check_mark:        | :heavy_check_mark:    |                    |
-| ONDC:NTS10    | RSP                                          | :heavy_check_mark: | :heavy_check_mark:        | :heavy_check_mark:    |                    |
-| ONDC:NTS11    | ODR                                          | :heavy_check_mark: | :heavy_check_mark:        | :heavy_check_mark:    |                    |
-| ONDC:AGR10    | Agri Inputs                                  | :heavy_check_mark: | :heavy_check_mark:        | :heavy_check_mark:    |                    |
-| ONDC:AGR11    | Agri Outputs                                 | :heavy_check_mark: | :heavy_check_mark:        | :heavy_check_mark:    |                    |
-| ONDC:AGR12    | Agri Services                                | :heavy_check_mark: | :heavy_check_mark:        | :heavy_check_mark:    |                    |
-| ONDC:SRV10    | Skilled Services - Appliance Repair Services | :heavy_check_mark: | :heavy_check_mark:        | :heavy_check_mark:    |                    |
-| ONDC:SRV11    | Skilled Services - Infra Services            | :heavy_check_mark: | :heavy_check_mark:        | :heavy_check_mark:    |                    |
-| ONDC:SRV12    | Skilled Services - Personal Care Services    | :heavy_check_mark: | :heavy_check_mark:        | :heavy_check_mark:    |
+Network Participants are requested to refer to the list [here](https://docs.google.com/spreadsheets/d/10yM4DtZ5cOgRf0uT2KMN6Ucd9IU_YZ__JatYYXtjc1k/edit#gid=1951317229) for ONDC defined domains and respective codes, across all environments (Staging, Pre-production and Production). The list will be updated as in when required.
 
 Below are links to the comprehensive developer guide and model implementations for the enabled domains.
 
