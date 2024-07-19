@@ -1,5 +1,5 @@
 <p align="middle">
-<img src="profile/ONDC-Logo.png" height="150px" width="300px"></p>
+<img src="./ONDC-Logo.png" height="150px" width="300px"></p>
 
 # ONDC - Open Network for Digital Commerce
 
@@ -19,6 +19,9 @@ This comprehensive guide is designed to walk you through the process of integrat
 6. [Enabled Domains](#enabled-domains)
 7. [Reference Applications](#reference-applications)
 8. [Utilities](#utilities)
+9. [Taxonomies](#taxonomies)
+10. [Gateway and Registry Endpoints](#gateway-and-registry-endpoints)
+11. [Network Observability for Production](#network-observability-for-production)
 
 ## Getting Started
 
@@ -26,13 +29,13 @@ The [ONDC Web Portal](https://portal.ondc.org/) serves as a self-service platfor
 
 ## Quick Start Guide
 
-[ONDC Integration Guide](https://docs.google.com/presentation/d/1HPRXk3lVYKmyAFcApgukZuwHhIZ_VlqR/edit#slide=id.g27b2e3e34a2_28_199) is a roadmap designed to illuminate key resources and navigate through the integration journey.
+[ONDC Integration Guide](https://docs.google.com/presentation/d/1HPRXk3lVYKmyAFcApgukZuwHhIZ_VlqR/edit#slide=id.g27b2e3e34a2_28_199) is a roadmap designed to illuminate key resources and navigate through the integration journey. 
 
 ## The Protocol
 
-**Beckn** is an open protocol that allows local businesses across any industry to be discovered and engaged by any beckn-enabled application. **Beckn protocol** is a collection of open specifications consisting of protocol APIs, message formats, network design and reference architectures to allow any two entities to execute commercial transactions without being on the same platform.
+**[Beckn](https://www.youtube.com/watch?v=gefmygtzZR8&t=1s)** is an open protocol that allows local businesses across any industry to be discovered and engaged by any beckn-enabled application. **Beckn protocol** is a collection of open specifications consisting of protocol APIs, message formats, network design and reference architectures to allow any two entities to execute commercial transactions without being on the same platform. 
 
-**ONDC** has provided the network extension layer over the Beckn Protocol (base layer). Over the base layer, the network extension layer comprises **model specifications** customised to the ONDC context that have been adopted in order to facilitate transactions over the network.
+**ONDC** has provided the network extension layer over the Beckn Protocol (base layer). Over the base layer, the network extension layer comprises **model specifications** customised to the ONDC context that have been adopted in order to facilitate transactions over the network. For a detailed understanding of the ONDC network architecture, please refer to our [Tech Briefing Presentation](https://docs.google.com/presentation/d/17mJ_zPjEYPagc5PZuw7FS3Ftcc-Gop4U6536wStRSag/edit#slide=id.g1204a6ff419_0_56) and [Video](https://drive.google.com/file/d/1WuHCc59C45LClpbiIPomPMuTeClRZw7h/view).
 
 ### Subscription Process
 
@@ -53,7 +56,7 @@ To enroll in the ONDC network, Network Participants (NP) must be added to the re
 
 When communicating over HTTP using Beckn APIs, the subscribers need to authenticate themselves to perform transactions with other subscribers. Due to the commercial nature of the transactions, every request/callback pair is considered to be a "contract" between two parties. Therefore, it is imperative that all requests and callbacks are digitally signed by the sender and subsequently verified by the receiver.
 
-The complete process is documented [here](https://github.com/ONDC-Official/developer-docs/blob/main/registry/signing-verification.md)
+The complete process is documented [here](https://github.com/ONDC-Official/developer-docs/blob/main/registry/signing-verification.md). Some frequently asked questions and answers are compiled [here](https://docs.google.com/document/d/15Dpy02lqtcU9tslyMqaI4UtnD2rtwnjAbn1narO0364/edit?usp=sharing).
 
 ### Enabled Domains
 
@@ -75,36 +78,50 @@ Below are links to the comprehensive developer guide and model implementations f
 
      - `For B2B, select version : release-2.0.2`
      - `For B2C, select version : draft-1.x`
-
+     - `For B2C Exports, select version : b2c_exports_2.0`
+  
 - Logistics - This domain streamlines the acquisition of on-network logistics services, providing logistics buyers with a variety of choices for flexible solutions that suit their specific needs.
 
-  - [v1.2](https://docs.google.com/document/d/1CkfxtqyLbSQccJZyNmf9BSGzJBH13gcLOk_tywV-LBk/edit)
-  - [B2B Logistics](https://github.com/ONDC-Official/ONDC-LOG-Specifications)
+  - [B2C Logistics v1.2](https://docs.google.com/document/d/1CkfxtqyLbSQccJZyNmf9BSGzJBH13gcLOk_tywV-LBk/edit)
+  - [B2B Logistics v2.0](https://github.com/ONDC-Official/ONDC-LOG-Specifications)
   - [Logistics Developer Guide](https://ondc-official.github.io/ONDC-LOG-Specifications/)
        - `For B2B Logistics, select version : draft-2.x`
-  - [Test Case Scenarios - Logistics](https://docs.google.com/spreadsheets/d/1JZV6ZQzXcHUsOwegGtArX3DdIXYIy3gxkhQ00q7kICc/edit#gid=1670900093)
+  - [Test Case Scenarios - B2C Logistics](https://docs.google.com/spreadsheets/d/1JZV6ZQzXcHUsOwegGtArX3DdIXYIy3gxkhQ00q7kICc/edit#gid=1670900093)
 - Financial Services - This domain facilitates easy access to a spectrum of financial solutions, covering loans, insurance, investments. 
 
   - [Financial Services Developer Guide](https://ondc-official.github.io/ONDC-FIS-Specifications/)
 
-       - `For Loan , select Version : draft-loan`
-       - `For Insurance , select version : draft-insurance`
-       - `For Investments , select version : draft-mutual-funds`
+       - `For Personal Loan , select Version : release-FIS12-2.0.0`
+       - `For Invoice based Loan , select Version : draft-FIS12-invoice-2.1.0`
+       - `For Health Insurance , select version : draft-health`
+       - `For Motor Insurance , select version : draft-motor`
+       - `For Marine Insurance , select version : draft-marine`
+       - `For Investments , select version : draft-FIS14-enhancements`
 
   - [Gift Card](https://docs.google.com/document/d/1iTCQd_jI3mRqgSiaeZBvxWL-G_wkE__xxW-Wua8arVE/edit)
 
-- Travel & Tourism - This domain enables easy access to a range of travel-related services, covering On-demand Ride hailing with various transport modes, ticket booking without designated seat. 
+- Travel & Tourism - This domain enables easy access to a range of travel-related services, covering On-demand Ride hailing with various transport modes, ticket booking without designated seat, airlines, hotels, intercity bus, entry ticket pass, etc.
 
   - [Mobility Specifications Developer Guide](https://ondc-official.github.io/mobility-specification/)
 
-      - `For On-demand Ride hailing, select version : draft-TRV10-2.0.0`
-      - `For Unreserved Ticket Booking (metro and intracity bus), select version : draft-TRV11-2.0.0`
+      - `For On-demand Ride hailing, select version : release-TRV10-2.0.0`
+      - `For Unreserved Ticket Booking (metro and intracity bus), select version : release-TRV11-2.0.0`
+      - `For Airlines Booking, select version : draft-TRV12-airline`
+      - `For Hotel Booking, select version : draft-TRV13-hotel`
+      - `For Unreserved Entry Pass (heritage sights, museums, concerts, etc), select version : draft-TRV14-2.0.0`
 
 
-- Services -  This domain empowers individuals to effortlessly access a diverse array of services, covering home services like painting and consulations, etc.
+- Services -  This domain empowers individuals to effortlessly access a diverse array of services, covering skilled services like home painting, chefs and consulations, auction of agricultural outputs, leasing farming machinery and tools, soil testing, assaying services, lab testing, subscriptions, etc.
 
-  - [v2.0.0](https://github.com/ONDC-Official/ONDC-SRV-Specifications/tree/draft-services)
+  - [v2.0.0](https://github.com/ONDC-Official/ONDC-SRV-Specifications)
   - [Services Developer Guide](https://ondc-official.github.io/ONDC-SRV-Specifications/#)
+
+      - `For Skilled Services, select version : release-services`
+      - `For Auction of Agricultural Outputs, select version : draft-agri_bids_and_auction`
+      - `For Equipment hiring (leasing farming machinery and tools), select version : draft-agri_equipment`
+      - `For Soil Testing and Assaying Service, select version : draft-agri_services`
+      - `For Healthcare Services (Lab Test Booking), select version : draft-healthcare`
+      - `For Subcription based services, select version : draft-subscriptions`
 
 - Ancillary Services
 
@@ -128,7 +145,7 @@ The network participants need to complete the end-to-end testing with ONDC refer
   - Github Repo [link](https://github.com/ONDC-Official/seller-app-sdk/tree/master)
 - [ONDC Reference Buyer App](https://ref-app-buyer-staging-v2.ondc.org/login)
   - Github Repo [link](https://github.com/ONDC-Official/ondc-sdk)
-- [ONDC Reference Logistics Seller App](https://ref-logistics-app-stage.ondc.org/)
+- [ONDC Reference Logistics Seller (LSP) App](https://ref-logistics-app-stage.ondc.org/)
   - Github Repo [link](https://github.com/ONDC-Official/ref-logistics-app-sdk/tree/main)
 
 **Pre-Production Environment**
@@ -137,7 +154,7 @@ The network participants need to complete the end-to-end testing with ONDC refer
   - Github Repo [link](https://github.com/ONDC-Official/seller-app-sdk/tree/master)
 - [ONDC Reference Buyer App](https://buyer-app-preprod-v2.ondc.org/login)
   - Github Repo [link](https://github.com/ONDC-Official/ondc-sdk)
-- [ONDC Reference Logistics Seller App](https://ref-logistics-app-preprod.ondc.org/)
+- [ONDC Reference Logistics Seller (LSP) App](https://ref-logistics-app-preprod.ondc.org/)
   - Github Repo [link](https://github.com/ONDC-Official/ref-logistics-app-sdk/tree/main)
 
 ## Utilities
@@ -152,4 +169,31 @@ The network participants need to complete the end-to-end testing with ONDC refer
 - [B2B/Logistics Log Verification](https://github.com/ONDC-Official/reference-implementations/tree/main/utilities/logistics-b2b/log-verification-utility) : This tool is designed for ONDC Network Participants to verify their transaction logs related to the B2B and Logistics use cases on their end, ensuring accuracy before submission to the ONDC team for technical clearance.
 - [vlookup](https://www.npmjs.com/package/vlookup-ondc) : This tool is developed to perform a registry lookup and retrieve details related to Network Participants (NP).
 - [RSF Mock Server](https://github.com/ONDC-Official/mock-server-utility) : The RSF Mock Server is a tool specifically designed to test network integration for Reconcillation and Settlement Framework (RSF) , based on ONDC model implementation.
+
+## Taxonomies
+
+- Taxonomies for different domains can be found [here](https://drive.google.com/drive/folders/1ZdhZh7wzl4C2452zMYh7wlAvCH-x1b2R).
+
+
+## Gateway and Registry Endpoints
+
+| **Environment**      | **Endpoint For**   | **URL**                                                   |
+|----------------------|---------------------|-----------------------------------------------------------|
+| **Staging**          | Gateway     | `https://staging.gateway.proteantech.in/search`           |
+|                      | Registry    | `https://staging.registry.ondc.org/lookup`              |
+|                      |                     | `https://staging.registry.ondc.org/vlookup`               |
+| **Pre-Production**   | Gateway     | `https://preprod.gateway.ondc.org/search`                  |
+|                      | Registry    | `https://preprod.registry.ondc.org/ondc/lookup`         |
+|                      |                     | `https://preprod.registry.ondc.org/ondc/vlookup`            |
+| **Production**       | Gateway     | `https://prod.gateway.ondc.org/search`                    |
+|                      | Registry    | `https://prod.registry.ondc.org/ondc/lookup`              |
+|                      |                     | `https://prod.registry.ondc.org/ondc/vlookup`              |
+
+## Network Observability for Production
+Refer to the following document for the Network Observability API Schema Requirements for the Production Environment
+[Network Obervability](https://docs.google.com/document/d/1dP_QTLnI1T89mCcJVfbB0S1ZJ7Ej5y3o1Sr3nplserY/edit#heading=h.blfeo5vd64pc)
+
+
+
+
 
