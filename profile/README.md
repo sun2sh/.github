@@ -191,7 +191,7 @@ The network participants need to complete the end-to-end testing with ONDC refer
 
 ## Network Observability for Production
 Refer to the following document for the Network Observability API Schema Requirements for the Production Environment
-[Network Obervability](https://docs.google.com/document/d/1dP_QTLnI1T89mCcJVfbB0S1ZJ7Ej5y3o1Sr3nplserY/edit#heading=h.blfeo5vd64pc)
+[Network Observability](https://docs.google.com/document/d/1dP_QTLnI1T89mCcJVfbB0S1ZJ7Ej5y3o1Sr3nplserY/edit#heading=h.blfeo5vd64pc)
 
 
 
