@@ -21,6 +21,7 @@ This comprehensive guide is designed to walk you through the process of integrat
 8. [Utilities](#utilities)
 9. [Taxonomies](#taxonomies)
 10. [Gateway and Registry Endpoints](#gateway-and-registry-endpoints)
+11. [Network Observability for Production](#network-observability-for-production)
 
 ## Getting Started
 
@@ -55,7 +56,7 @@ To enroll in the ONDC network, Network Participants (NP) must be added to the re
 
 When communicating over HTTP using Beckn APIs, the subscribers need to authenticate themselves to perform transactions with other subscribers. Due to the commercial nature of the transactions, every request/callback pair is considered to be a "contract" between two parties. Therefore, it is imperative that all requests and callbacks are digitally signed by the sender and subsequently verified by the receiver.
 
-The complete process is documented [here](https://github.com/ONDC-Official/developer-docs/blob/main/registry/signing-verification.md)
+The complete process is documented [here](https://github.com/ONDC-Official/developer-docs/blob/main/registry/signing-verification.md). Some frequently asked questions and answers are compiled [here](https://docs.google.com/document/d/15Dpy02lqtcU9tslyMqaI4UtnD2rtwnjAbn1narO0364/edit?usp=sharing).
 
 ### Enabled Domains
 
@@ -188,6 +189,9 @@ The network participants need to complete the end-to-end testing with ONDC refer
 |                      | Registry    | `https://prod.registry.ondc.org/ondc/lookup`              |
 |                      |                     | `https://prod.registry.ondc.org/ondc/vlookup`              |
 
+## Network Observability for Production
+Refer to the following document for the Network Observability API Schema Requirements for the Production Environment
+[Network Obervability](https://docs.google.com/document/d/1dP_QTLnI1T89mCcJVfbB0S1ZJ7Ej5y3o1Sr3nplserY/edit#heading=h.blfeo5vd64pc)
 
 
 
