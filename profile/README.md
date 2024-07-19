@@ -145,7 +145,7 @@ The network participants need to complete the end-to-end testing with ONDC refer
   - Github Repo [link](https://github.com/ONDC-Official/seller-app-sdk/tree/master)
 - [ONDC Reference Buyer App](https://ref-app-buyer-staging-v2.ondc.org/login)
   - Github Repo [link](https://github.com/ONDC-Official/ondc-sdk)
-- [ONDC Reference LSP App](https://ref-logistics-app-stage.ondc.org/)
+- [ONDC Reference Logistics Seller (LSP) App](https://ref-logistics-app-stage.ondc.org/)
   - Github Repo [link](https://github.com/ONDC-Official/ref-logistics-app-sdk/tree/main)
 
 **Pre-Production Environment**
@@ -154,7 +154,7 @@ The network participants need to complete the end-to-end testing with ONDC refer
   - Github Repo [link](https://github.com/ONDC-Official/seller-app-sdk/tree/master)
 - [ONDC Reference Buyer App](https://buyer-app-preprod-v2.ondc.org/login)
   - Github Repo [link](https://github.com/ONDC-Official/ondc-sdk)
-- [ONDC Reference Logistics Seller App](https://ref-logistics-app-preprod.ondc.org/)
+- [ONDC Reference Logistics Seller (LSP) App](https://ref-logistics-app-preprod.ondc.org/)
   - Github Repo [link](https://github.com/ONDC-Official/ref-logistics-app-sdk/tree/main)
 
 ## Utilities
