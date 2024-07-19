@@ -178,15 +178,15 @@ The network participants need to complete the end-to-end testing with ONDC refer
 
 | **Environment**      | **Endpoint For**   | **URL**                                                   |
 |----------------------|---------------------|-----------------------------------------------------------|
-| **Staging**          | Gateway     | https://staging.gateway.proteantech.in/search              |
-|                      | Registry    | https://staging.registry.ondc.org/lookup                   |
-|                      |                     | https://staging.registry.ondc.org/vlookup                  |
-| **Pre-Production**   | Gateway     | https://preprod.gateway.ondc.org/search                    |
-|                      | Registry    | https://preprod.registry.ondc.org/ondc/lookup              |
-|                      |                     | https://preprod.registry.ondc.org/ondc/vlookup             |
-| **Production**       | Gateway     | https://prod.gateway.ondc.org/search                       |
-|                      | Registry    | https://prod.registry.ondc.org/ondc/lookup                 |
-|                      |                     | https://prod.registry.ondc.org/ondc/vlookup                |
+| **Staging**          | Gateway     | `https://staging.gateway.proteantech.in/search`           |
+|                      | Registry    | `https://staging.registry.ondc.org/lookup`              |
+|                      |                     | `https://staging.registry.ondc.org/vlookup`               |
+| **Pre-Production**   | Gateway     | `https://preprod.gateway.ondc.org/search`                  |
+|                      | Registry    | `https://preprod.registry.ondc.org/ondc/lookup`         |
+|                      |                     | `https://preprod.registry.ondc.org/ondc/vlookup`            |
+| **Production**       | Gateway     | `https://prod.gateway.ondc.org/search`                    |
+|                      | Registry    | `https://prod.registry.ondc.org/ondc/lookup`              |
+|                      |                     | `https://prod.registry.ondc.org/ondc/vlookup`              |
 
 
 
