@@ -18,10 +18,12 @@ This comprehensive guide is designed to walk you through the process of integrat
 5. [Signing and Verification](#signing-and-verification)
 6. [Enabled Domains](#enabled-domains)
 7. [Reference Applications](#reference-applications)
-8. [Utilities](#utilities)
+8. [Utilities and Sandboxes](#utilities-and-sandboxes)
 9. [Taxonomies](#taxonomies)
-10. [Gateway and Registry Endpoints](#gateway-and-registry-endpoints)
-11. [Network Observability for Production](#network-observability-for-production)
+10. [Product Requirement Documents (PRDs)](#product-requirement-documents)
+11. [Gateway and Registry Endpoints](#gateway-and-registry-endpoints)
+12. [Network Observability for Production](#network-observability-for-production)
+
 
 ## Getting Started
 
@@ -157,7 +159,7 @@ The network participants need to complete the end-to-end testing with ONDC refer
 - [ONDC Reference Logistics Seller (LSP) App](https://ref-logistics-app-preprod.ondc.org/)
   - Github Repo [link](https://github.com/ONDC-Official/ref-logistics-app-sdk/tree/main)
 
-## Utilities
+## Utilities and Sandboxes
 
 - Signing and Verification : This tool is designed to support and aid ONDC Network Participants in constructing their own cryptocurrency libraries essential for engaging with the ONDC Network. It encompasses tasks such as key generation, signing, verification, encryption, and decryption.
   - [Java](https://github.com/ONDC-Official/reference-implementations/tree/main/utilities/ondc-crypto-utility-master)
@@ -169,10 +171,15 @@ The network participants need to complete the end-to-end testing with ONDC refer
 - [B2B/Logistics Log Verification](https://github.com/ONDC-Official/reference-implementations/tree/main/utilities/logistics-b2b/log-verification-utility) : This tool is designed for ONDC Network Participants to verify their transaction logs related to the B2B and Logistics use cases on their end, ensuring accuracy before submission to the ONDC team for technical clearance.
 - [vlookup](https://www.npmjs.com/package/vlookup-ondc) : This tool is developed to perform a registry lookup and retrieve details related to Network Participants (NP).
 - [RSF Mock Server](https://github.com/ONDC-Official/mock-server-utility) : The RSF Mock Server is a tool specifically designed to test network integration for Reconcillation and Settlement Framework (RSF) , based on ONDC model implementation.
+- [Sandbox](https://mock.ondc.org/) : This sandbox specifically designed to test network integration for various domains like B2B Retail, Services, B2C Exports, B2B Logistics, etc based on ONDC model implementation.
 
 ## Taxonomies
 
-- Taxonomies for different domains can be found [here](https://drive.google.com/drive/folders/1ZdhZh7wzl4C2452zMYh7wlAvCH-x1b2R).
+- Taxonomies for different domains are available [here](https://drive.google.com/drive/folders/1ZdhZh7wzl4C2452zMYh7wlAvCH-x1b2R).
+
+## Product Requirement Documents
+
+- PRDs for different use cases are available [here](https://drive.google.com/drive/folders/14eHd-AQm-lkyBoh6JZDk1kCuVQxvTMFE).
 
 
 ## Gateway and Registry Endpoints
