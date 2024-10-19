@@ -28,7 +28,10 @@ This comprehensive guide is designed to walk you through the process of integrat
 
 ## Getting Started
 
-The [ONDC Web Portal](https://portal.ondc.org/) serves as a self-service platform that streamlines interaction between ONDC and its network participants across their entire lifecycle. "Network player" encompasses network participants, ecosystem partners, and other entities engaged with ONDC. The portal provides access to a range of services for network players, such as self-service onboarding, self-monitored compliance, and self-monitored operations. Creating an account on ONDC Web Portal is mandatory for starting your integration with ONDC.
+The [ONDC Participant Portal](https://portal.ondc.org/) serves as a self-service platform that streamlines interaction between ONDC and its network participants across their entire lifecycle. "Network player" encompasses network participants, ecosystem partners, and other entities engaged with ONDC. The portal provides access to a range of services for network players, such as self-service onboarding, self-monitored compliance, and self-monitored operations. Creating an account on ONDC Participant Portal is mandatory for starting your integration with ONDC.
+
+- Watch: [Quick sign-up to integration journey video](https://drive.google.com/file/d/1Kdh1jpa7WiYduxdcxXKLEnwwclDa1eLG/view?usp=sharing) (view at 1.25x playback speed for best results)
+- Reach out to 'portal-support@ondc.org' for any support related queries related to portal
 
 ## Quick Start Guide
 
@@ -46,7 +49,7 @@ To enroll in the ONDC network, Network Participants (NP) must be added to the re
 
 1. **Staging Registry**
 
-   - Obtain whitelisting for the subscriber ID.
+   - Obtain whitelisting for the subscriber ID by submitting the request via ONDC Participant Portal
    - Initiate the subscription process by calling the /subscribe API.
      The complete process is documented [here](https://github.com/ONDC-Official/developer-docs/blob/main/registry/Onboarding%20of%20Participants.md)
 2. **Pre-Production Registry**
@@ -136,8 +139,7 @@ Below are links to the comprehensive developer guide and model implementations f
 - Media, Entertainment, Content
   - [v2.0.0](https://github.com/ONDC-Official/ONDC-MEC-Specifications/tree/draft-print_media)
   - [Media, Entertainment, Content Developer Guide](https://ondc-official.github.io/ONDC-MEC-Specifications/)
-- Ancillary Services
-
+- Services to be enabled across domains
   - **Issue & Grievance Management (IGM)** within the ONDC Network serves as a critical mechanism for resolving disputes and concerns among Network Participants (NPs).
     - [v1.0.0](https://docs.google.com/document/d/1ZUS5hvS2M-TafyjAdcTY6X51VKbb9IO1fPaSquQfA0Y/edit)
        - <code>**TIP:** Run the transaction logs through the [log validation utility](https://github.com/ONDC-Official/log-validation-utility) to ensure accuracy before submission to the ONDC team for technical clearance.</code>
@@ -146,6 +148,8 @@ Below are links to the comprehensive developer guide and model implementations f
     - [v1.0.0](https://docs.google.com/document/d/1ubUPAWpbbUJ4vG2h5TQ74srZBjYjrO0P/edit)
        - <code>**TIP:** Use the [RSF Mock Server](https://github.com/ONDC-Official/mock-server-utility) to test network integration for RSF</code>
     - [Commonly asked questions](https://docs.google.com/document/d/19TCvuwwvOklt9Ev-SKkcXRAdvh6Qyhl9tI1Z_YavHMk/edit) 
+
+- Ancillary Services
   - Rating 
     - [v1.2.0](https://docs.google.com/document/d/1VaafY8t47hjpoW6tdezGsPwLwxxaAaGc/edit)
   - Score
